@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.fix-content {
+  flex: 1 0 auto;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1150px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .container {
+    padding: 0 16px;
+  }
+}

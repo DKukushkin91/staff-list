@@ -1,0 +1,17 @@
+.error-page {
+    width: 100%;
+    margin: 32px 0;
+
+    &_text {
+        font-size: 16px;
+        color: #72808d;
+        
+        & a {
+            text-decoration: none;
+            color: #0762c8;
+            text-transform: uppercase;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+    }
+}

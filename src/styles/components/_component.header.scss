@@ -1,0 +1,24 @@
+.header {
+  background: white;
+
+  &_wrapper {
+    display: flex;
+    padding: 24px 0;
+    align-items: center;
+  }
+
+  &_title {
+    font-size: 12px;
+    color: #9dacbf;
+    width: 160px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  .header {
+    &_wrapper {
+      padding: 12px 24px;
+    }
+  }
+}

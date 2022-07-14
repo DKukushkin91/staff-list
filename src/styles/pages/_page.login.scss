@@ -1,0 +1,82 @@
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &_form {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 24px;
+    max-width: 400px;
+    box-shadow: 0px 2px 4px rgba(176, 190, 197, 0.5);
+    margin-top: 80px;
+  }
+
+  &_fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  &_legend {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: $fontPrimary;
+    padding: 0;
+    color: #3b5172;
+    margin: 0 0 8px;
+  }
+
+  &_label {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+
+    &-caption {
+      font-size: 16px;
+      font-weight: 500;
+      font-family: $fontPrimary;
+      color: #72808d;
+    }
+  }
+
+  &_input {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid rgba(145, 148, 162, 0.2);
+    font-size: 14px;
+    color: #064ea0;
+    font-weight: 400;
+
+    &::placeholder {
+      font-size: 14px;
+      color: #9dacbf;
+    }
+  }
+
+  &_button {
+    border: 0;
+    border-radius: 30px;
+    padding: 12px 24px;
+    margin: 24px 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    background: #0762c8;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+    &:hover,
+    &:focus {
+      outline: none;
+      background-color: #064ea0;
+    }
+  }
+}

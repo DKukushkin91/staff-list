@@ -1,0 +1,32 @@
+{
+  "staff-list": [
+    {
+      "id": 2,
+      "avatar": "https://dummyimage.com/300",
+      "full_name": "Иванов Иван Иванович",
+      "position": "Backend разработчик",
+      "department": "Разработка",
+      "phone_number": 89124485452,
+      "email": "ivanov@edemrf.comasdasdasasdas",
+      "birthday": "1999-09-10",
+      "description": "Что - то о себе, много букв",
+      "social_link": "https://t.me/ivasdasdanovI"
+    },
+    {
+      "id": 3,
+      "avatar": "https://dummyimage.com/300",
+      "full_name": "Петрова Марина Петровна",
+      "position": "UI/UX дизайнер",
+      "department": "Дизайн",
+      "phone_number": 81234567854,
+      "email": "petrovam@edemrf.com",
+      "birthday": "1995-09-25",
+      "description": "Что - то о себе, много букв",
+      "social_link": "https://t.me/petrovaM"
+    }
+  ],
+  "login": {
+    "email": "",
+    "password": ""
+  }
+}

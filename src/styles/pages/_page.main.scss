@@ -1,0 +1,15 @@
+.main {
+  width: 100%;
+
+  &_title {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .main {
+    &_title {
+      margin-top: 24px;
+    }
+  }
+}
